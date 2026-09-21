@@ -1,0 +1,8 @@
+{
+  "name": "creator-checkout-cost-ledger",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev": "tsx src/main.ts", "test": "tsx test/cost_decision.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"openai": "^4.0.0", "zod": "^3.0.0"},
+  "devDependencies": {"tsx": "^4.0.0", "typescript": "^5.0.0"}
+}
